@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:  "Playwrite NZ", ;
+	box-sizing: border-box;
+}
+
+body{
+	background: #001e0e;
+}
+
+.app{
+	width: 90%;
+	background: #fff;
+	max-width: 700px;
+	margin: 100px auto 0;
+	border-radius: 10px;
+	padding: 30px;
+
+}
+
+.app h1{
+	font-weight: 600;
+	color: #057238;
+	font-size: 30px;
+	border-bottom: 2px solid;
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+
+
+.quiz{
+	padding: 20px 0;
+
+
+}
+
+.quiz h2{
+	font-size: 18px;
+	color: #057238;
+	font-weight: 600px;
+
+}
+
+.btn{
+	background: #fff;
+	color: #333;
+	font-weight: 500;
+	width: 100%;
+	border: 1px solid #057238;
+	padding: 10px;
+	margin: 10px 0;
+	cursor: pointer;
+	text-align: left;
+	border-radius: 5px;
+	transition: all 0.5s;
+}
+
+
+.btn:hover:not(:disabled){
+	background: #057238;
+	color: #fff;
+}
+
+.btn:disabled{
+	cursor: no-drop;
+
+}
+
+#next-btn{
+	background: #057238;
+	color: #fff;
+	font-weight: 500;
+	width: 200px;
+	border: none;
+	padding: 10px;
+	margin: 20px auto 0;
+	border-radius: 5px;
+	cursor: pointer;
+	display: block;
+}
+.correct{
+	background: #057238;
+}
+
+.incorrect{
+	background: #9a1a1a;
+}
